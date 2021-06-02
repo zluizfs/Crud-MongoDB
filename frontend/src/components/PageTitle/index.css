@@ -1,0 +1,34 @@
+.pageTitle {
+  margin-top: 3rem;
+  margin-bottom: 30px;
+}
+
+.pageTitle h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  margin-bottom: 10px;
+}
+
+.pageTitle p {
+  font-size: 1rem;
+}
+
+.pageTitle h2, .pageTitle p {
+  color: var(--text);
+}
+
+@media (min-width: 790px){
+  .pageTitle {
+    margin-top: 3rem;
+  }
+
+  .pageTitle h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .pageTitle p {
+    font-size: 1.2rem;
+  }
+}

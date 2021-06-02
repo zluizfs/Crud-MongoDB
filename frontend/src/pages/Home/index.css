@@ -1,0 +1,28 @@
+.table {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.table .table-head {
+  margin: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.table .table-head-title {
+  color: var(--text);
+}
+
+.create-task {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  margin-bottom: 20px;
+}
+
+.dialog-content > div{
+  padding: 0;
+  margin-bottom: 15px;
+}
